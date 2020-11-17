@@ -1,0 +1,654 @@
+body{
+	display: grid;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat';
+	color: black;
+	background-color: #EDF1F2;
+	letter-spacing: 0.75px;
+}
+.container{
+	width: 1171px;
+	margin: 0 auto;
+}
+.base{
+	background-color: #3F4246;
+	width: 100%;
+	height: 108px;
+}
+.nav{
+	padding-top: 9px;
+	display: flex;
+}
+.logo{
+	margin-right: 31px;
+	height: 42px;
+	width: 106px;
+}
+.base2{
+	width: 631px;
+	height: 37px;
+	background-color: white;
+	margin-top: 4px;
+	border-radius: 5px;
+	display: flex;
+}
+.baseSearch{
+	width: 410px;
+	height: 37px;
+	font-size: 13px;
+	border: none;
+	margin-left: 20px;
+	color: #A3A9AD;
+	font-family: Montserrat Regular;
+	text-align: left;
+}
+.categories{
+	width: 146px;
+	display: flex;
+	margin-right: 14px;
+}
+.line{
+	width: 2px;
+	height: 35px;
+	color: #6E747A;
+	margin-top: 1px;
+}
+.categories p{
+	font-family: Montserrat Regular;
+	font-size: 13px;
+	color: #6E747A;
+	padding-left: 26px;
+	margin-top: 10px;
+}
+.arrowdown{
+	width: 9px;
+	height: 6px;
+	padding-top: 15px;
+	margin-right: 0;
+	margin-left: auto;
+}
+.base3{
+	width: 61px;
+	height: 37px;
+	background-color: #2A96D4; 
+	margin-left: auto;
+	margin-right: 0;
+	border-radius: 0 5px 5px 0;
+}
+.search{
+	width: 17px;
+	height: 17px;
+	padding-left: 22px;
+	padding-top: 10px;
+}
+.basecart{
+	width: 79px;
+	height: 19px;
+	display: flex;
+	margin-left: 43px;
+	margin-top: 14px;
+}
+.imgcart{
+	width: 17px;
+	height: 16px;
+}
+.basecart p{
+	margin-top: 1px;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: Montserrat Regular;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+.imgblock1 {
+    position: relative;
+    display: inline-block;
+}
+.imgblock1 img{
+	width: 20px;
+	height: 17px;
+}
+.imgblock1 span{
+	color: #FFFFFF;
+	font-size: 11px;
+	position: absolute;
+	right: 0;
+    padding: 3px 5px;
+    font-family: Montserrat Regular;
+}
+.basewishlist{
+	width: 106px;
+	height: 19px;
+	display: flex;
+	margin-left: 33px;
+	margin-top: 14px;
+}
+.imgwish{
+	width: 17px;
+	height: 16px;
+}
+.basewishlist p{
+	margin-top: 1px;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: Montserrat Regular;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+.imgblock2 {
+    position: relative;
+    display: inline-block;
+}
+.imgblock2 img{
+	width: 24px;
+	height: 17px;
+}
+.imgblock2 span{
+	color: #FFFFFF;
+	font-size: 11px;
+	position: absolute;
+	right: 0;
+    padding: 3px;
+    font-family: Montserrat Regular;
+}
+.basemyaccount{
+	width: 116px;
+	height: 17px;
+	display: flex;
+	margin-left: 29px;
+	margin-top: 14px;
+}
+.basemyaccount .img1{
+	width: 19px;
+	height: 17px;
+}
+.basemyaccount p{
+	margin-top: 1px;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: Montserrat Regular;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+.basemyaccount .img2{
+	width: 9px;
+	height: 6px;
+	color: #86B817;
+	padding-top: 5px;
+}
+.middle{
+	display: flex;
+	margin-top: 12px;
+}
+.basemiddle{
+	background-color: #86B817;
+	width: 274px;
+	height: 45px;
+	display: flex;
+}
+.basemiddle p{
+	color: #FEFEFE;
+	font-family: Montserrat Regular;
+	font-size: 15px;
+	padding-left: 16px;
+	margin-top: 13px;
+}
+.menu{
+	display: flex;
+	padding-left: 20px;
+}
+.menu a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.menu li{
+	text-decoration: none;
+	font-size: 11px;
+	font-family: Montserrat Regular;
+	list-style-type: none;
+}
+.shopBy{
+	float: left;
+	width: 274px;
+	height: 471px;
+	margin-right: 0;
+}
+.shopByBlocks{
+	width: 274px;
+	height: 45.3px;
+	background-color: white;
+	margin-bottom: 2px;
+}
+.shopByBlocks p{
+	color: #4C4C4C;
+	font-size: 14px;
+	font-family: Montserrat Light;
+	float: left;
+	padding-left: 16px;
+}
+.shopByBlocks img{
+	float: right;
+	padding-right: 16px;
+	padding-top: 23px;
+}
+.ban{
+	float: right;
+	width: 876px;
+	height: 411px;
+	margin-top: 13px;
+}
+.nav1{
+	width: 876px;
+	height: 46px;
+	float: right;
+	margin-top: 1px;
+	background-color: #FFFFFF;
+	list-style-type: none;
+}
+.nav1 ul{
+	display: flex;
+	list-style-type: none;
+}
+.nav1 ul a{
+	text-decoration: none;
+	color: #000;
+	padding-right: 70px;
+	font-family: Montserrat Light;
+	font-size: 14px;
+}
+.nav1 ul a:hover{
+	text-decoration: underline;
+	decora
+	text-decoration-color: #86B817;
+	text-underline-position: under;
+}
+.collections{
+	background-color: white;
+	display: flex;
+	margin-top: 9px;
+	width: 100%;
+}
+.collections p{
+	font-family: Montserrat Light;
+	font-size: 24px;
+	color: #202326;
+	padding-left: 33px;
+	padding-top: 26px;
+	margin-top: 0;
+}
+.collections a{
+	font-family: Montserrat Regular;
+	font-size: 13px;
+	color: #0064D2;
+	margin-left: auto;
+	padding-right: 27px;
+	padding-top: 32px;
+}
+.collectionsBlock{
+	margin-top: 2px;
+	display: flex;
+	background-color: white;
+}
+.block{
+	width: 351px;
+	height: 472px;
+	margin-left: 30px;
+	margin-top: 28px;
+}
+.img1{
+	width: 351px;
+	height: 251px;
+}
+.Images{
+	display: flex;
+}
+.blockImg{
+	width: 114px;
+	height: 113px;
+	border-left: 2px solid #DDE2E6;
+	border-bottom: 2px solid #DDE2E6;
+}
+.img3{
+	padding-top: 24px;
+	padding-left: 25px;
+}
+.img4{
+	padding-top: 25px;
+	padding-left: 20px;
+}
+.img6{
+	padding-top: 18px;
+	padding-left: 29px;
+}
+.img7{
+	padding-top: 18px;
+	padding-left: 30px;
+}
+.img8{
+	padding-top: 17px;
+	padding-left: 40px;
+}
+.p1{
+	font-family: Montserrat Regular;
+	font-size: 16px;
+	color: #202326;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.p2{
+	font-family: Montserrat Regular;
+	font-size: 14px;
+	color: #6E747A;
+	text-align: center;
+}
+.block a{
+	font-family: Montserrat Regular;
+	font-size: 14px;
+	color: #0064D2;
+	display: block;
+	text-align: center;
+}
+.img13{
+	padding-top: 23px;
+	padding-left: 21px;
+}
+.img14{
+	padding-top: 17px;
+	padding-left: 27px;
+}
+.img15{
+	padding-top: 17px;
+	padding-left: 25px;
+}
+.img16{
+	padding-bottom: 8px;
+	padding-top: 10px;
+	padding-left: 53px;
+}
+.img17{
+	padding-top: 19px;
+	padding-left: 34px;
+}
+.img18{
+	padding-top: 19px;
+	padding-left: 25px;
+}
+.img19{
+	padding-top: 19px;
+	padding-left: 27px;
+}
+.img21{
+	padding-top: 19px;
+	padding-left: 27px;
+}
+.img22{
+	padding-top: 19px;
+	padding-left: 39px;
+}
+.img23{
+	padding-top: 18px;
+	padding-left: 29px;
+}
+.dailyDeals{
+	background-color: white;
+	display: flex;
+	margin-top: 20px;
+	width: 100%;
+}
+.dailyDeals p{
+	font-family: Montserrat Light;
+	font-size: 24px;
+	color: #202326;
+	padding-left: 33px;
+	padding-top: 33px;
+	margin-top: 0;
+}
+.dailyDeals a{
+	font-family: Montserrat Regular;
+	font-size: 13px;
+	color: #0064D2;
+	margin-left: auto;
+	padding-right: 16px;
+	padding-top: 38px;
+}
+.baseBlock{
+	position: relative;
+    display: inline-block;
+}
+.base1{
+	width: 34px;
+	height: 34px;
+	padding-top: 28px;
+}
+.baseImg{
+	position: absolute;
+	right: 0;
+	padding-top: 36px;
+	padding-right: 16px;
+}
+.dailyBlock{
+	display: flex;
+	margin-top: 2px;
+}
+.blocks{
+	background-color: white;
+	width: 291.5px;
+	height: 301px;
+	margin-right: 2px;
+	position: relative;
+}
+.blockInside{
+	height: 238px;
+	text-align: center;
+	margin-top: 29px;
+}
+.baseSale{
+	width: 65px;
+	height: 21px;
+	position: absolute;
+	left: 31px;
+}
+.textInside{
+	color: #FFFFFF;
+	font-family: Montserrat Regular;
+	font-size: 11px;
+	position: absolute;
+	left: 40px;
+	top: 33px;
+	text-transform: uppercase;
+}
+.blockInside h2{
+	width: 134px;
+	height: 38px;
+	color: #202326;
+	font-family: Montserrat Regular;
+	font-size: 15px;
+	margin-top: 28px;
+	margin: auto;
+	margin-top: 28px;
+}
+.blockInside p{
+	color: #A3A9AD;
+	font-family: Montserrat Regular;
+	font-size: 14px;
+	margin-top: 28px;
+}
+.dailyBottom{
+	background-color: white;
+	height: 47px;
+	margin-top: 2px;
+}
+.blockForPoints{
+	width: 86px;
+	margin: auto;
+	padding-top: 18px;
+}
+.point{
+	width: 10px;
+	height: 10px;
+	padding-right: 4px;
+}
+.img28{
+	margin-top: 13px;
+	margin-left: 51px;
+}
+.blockInside2{
+	display: flex;
+	width: 240px;
+	height: 42px;
+	position: absolute;
+	bottom: 30px;
+	margin-top: 0;
+	margin-left: 47px;
+}
+.img32{
+	width: 41px;
+	height: 42px;
+}
+.blockForText{
+	margin-top: 7px;
+	margin-left: 17px;
+}
+.blockForText h6{
+	font-size: 14px;
+	font-family: Montserrat Light;
+	color: #575757;
+	margin: 0;
+	text-align: left;
+}
+.blockForText p{
+	font-size: 12px;
+	font-family: Montserrat Light;
+	color: #575757;
+	margin: 0;
+	text-align: left;
+	margin-top: 6px;
+}
+.img31{
+	margin-top: 3px;
+	margin-left: 31px;
+}
+.subscribe{
+	background-color: white;
+	width: 100%;
+	height: 141px;
+	margin-top: 36px;
+}
+.subP{
+	color: #202326;
+	font-family: Montserrat Light;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 31px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.subBlock{
+	display: flex;
+	width: 518px;
+	height: 37px;
+	margin: 0 auto;
+}
+.subForm{
+	display: flex;
+	width: 341px;
+	height: 33px;
+	border: 2px solid #A3A9AD;
+	border-radius: 6px;
+	float: left;
+	margin-right: 9px;
+}
+.subForm img{
+	width: 17px;
+	height: 13px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.subEmail{
+	width: 280px;
+	height: 26px;
+	font-size: 13px;
+	color: #A3A9AD;
+	border: none;
+	padding-top: 4px;
+	font-family: Montserrat Regular;
+}
+a.button{
+	color: #FFFFFF;
+	background: #0064D2;
+	font-size: 13px;
+	font-family: Montserrat Regular;
+	text-align: center;
+	text-decoration: none;
+	padding-left: 34px;
+	padding-right: 34px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	border-radius: 6px;
+}
+.bottom{
+	background-color: #202326;
+	width: 100%;
+	height: 532px;
+	display: flex;
+}
+.bottomBigBlock{
+	display: flex;
+	height: 400px;
+	
+}
+.bottomBlock{
+	width: 220px;
+}
+.bottomBlock p{
+	color: #A3A9AD;
+	font-size: 16px;
+	font-family: Montserrat Regular;
+	margin-top: 31px;
+	margin-bottom: 18px;
+}
+.bottomBlock ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.bottomBlock li{
+	margin-bottom: 10px;
+}
+.bottomBlock a{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Montserrat Light;
+	text-decoration: none;
+}
+.bottomLine{
+	display: flex;
+	margin-bottom: 23px;
+	margin-top: 70px;
+}
+.bottomLine p{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Montserrat Light;
+	margin: 0;
+	padding-top: 10px;
+	float: left;
+}
+.connectBlock{
+	margin-left: auto;
+}
+.connect{
+	width: 41px;
+	height: 41px;
+	margin-left: 9px;
+}
+.connectBlock p{
+	color: #A3A9AD;
+	font-size: 16px;
+	font-family: Montserrat Regular;
+	padding-bottom: 10px;
+	margin-right: 12px;
+}
